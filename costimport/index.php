@@ -7,7 +7,7 @@ ini_set('memory_limit', '1G');
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-die("EXIT");
+
 // Capture warning / notice as exception
 set_error_handler('ctv_exceptions_error_handler');
 function ctv_exceptions_error_handler($severity, $message, $filename, $lineno) {
